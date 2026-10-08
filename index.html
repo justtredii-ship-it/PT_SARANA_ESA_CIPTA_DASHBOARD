@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Assignment Dashboard - PT Sarana Esa Cipta</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>◆ PT SARANA ESA CIPTA</h2>
+    <p>subsidiary of Musim Mas Group</p>
+    <nav>
+        <a class="active">Dashboard</a>
+        <a>My Assignments</a>
+        <a>Travel Order</a>
+        <a>Documents</a>
+        <a>Calendar</a>
+        <a>Completed Tasks</a>
+        <a>Reports</a>
+        <a>Profile</a>
+        <a>Settings</a>
+    </nav>
+</div>
+
+<div class="main">
+
+<header>
+    <input placeholder="Search assignments, documents, or employees...">
+    <div class="user">RP &nbsp; Redi, S.P.W.K., CSRS.</div>
+</header>
+
+<h1>Employee Assignment Dashboard</h1>
+<p class="subtitle">Overview of your current assignment, schedule, and related documents.</p>
+
+<section class="profile card">
+    <div>
+        <h2>Redi, S.P.W.K., CSRS.</h2>
+        <b>PT SARANA ESA CIPTA</b>
+        <p>subsidiary of Musim Mas Group</p>
+        <p>📍 Business Trip: Sambas, West Kalimantan</p>
+    </div>
+
+    <div class="stats">
+        <div>✈️ Travel Status<br><span class="approved">Approved</span></div>
+        <div>📍 Duty Station<br><b>Sambas</b></div>
+        <div>📅 Contract<br><b>20 Sep 2026 - 19 Nov 2026</b></div>
+        <div>⏳ Remaining<br><b id="remaining">42 Days</b></div>
+    </div>
+</section>
+
+
+<section class="metrics">
+<div class="metric">Duration<br><b>2 Months</b></div>
+<div class="metric">Work Allocation<br><b>30 Days Office<br>30 Days Ground</b></div>
+<div class="metric">Elapsed<br><b id="elapsed">18 Days</b></div>
+<div class="metric">On Office Left<br><b>12 Days</b></div>
+<div class="metric">On Ground Left<br><b>30 Days</b></div>
+</section>
+
+<div class="progress">
+<div></div>
+</div>
+<p>Contract Progress: <b>30% completed</b> | 70% remaining</p>
+
+
+<h2>Active & Upcoming Jobdesk</h2>
+
+<div class="job card">
+<h3>01. HCV/HCS Ground-Truthing</h3>
+<p>📅 19 October 2026 - 9 November 2026</p>
+<p>📍 Sambas | Phase: <span class="tag">On Ground</span></p>
+<p>Approval: <span class="approved">Approved</span></p>
+<p>Additional Field Survey Allowance: <b>IDR 7,500,000</b></p>
+<button>Download Assignment Letter</button>
+</div>
+
+
+<div class="job card">
+<h3>02. Demobilization (Demob)</h3>
+<p>📅 10 November 2026 - 11 November 2026</p>
+<p>📍 Sambas to Base Office | Phase: <span class="tag">On Ground</span></p>
+<p>Approval: <span class="approved">Approved</span></p>
+<p>Demobilization Support Allowance: <b>IDR 900,000</b></p>
+<button>Download Assignment Letter</button>
+</div>
+
+
+<div class="job card">
+<h3>03. Post-Fieldwork Data Consolidation & Debriefing</h3>
+<p>📅 12 November 2026 - 19 November 2026</p>
+<p>📍 Office | Phase: <span class="tag">On Office</span></p>
+<p>Office-based task</p>
+<button>Download Work Order</button>
+</div>
+
+
+<h2>Completed Jobdesk</h2>
+
+<div class="completed card">
+✓ Pre-Assessment Spatial Analysis & Desktop Mapping<br>
+✓ Stakeholder Mapping & Social-Environmental Risk Screening<br>
+✓ ESG Regulatory & Framework Benchmarking<br>
+✓ Fieldwork Logistics & Mission Planning Optimization
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
